@@ -4,10 +4,10 @@ import json
  
 # Authentication Information
  
-consumer_key = 'a1RqUEDHSrQ845WOUs4UppDVd'
-consumer_secret = '6PHRAN0ey5J4rIigOAornU3IYxJAdasaAmmamQJysDhiP3mTIi'
-access_token = '1318630721469042689-5YzlAL2MFzZQ9ySkH8hXGuRFDMzj8I'
-access_secret = 'OyQOTIf7HTZqnpDgnwfp4Sb4JEJwit6rTsm0ga1MocBe6'
+consumer_key = '*SECRET*'
+consumer_secret = '*SECRET*'
+access_token = '*SECRET*'
+access_secret = '*SECRET*'
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
